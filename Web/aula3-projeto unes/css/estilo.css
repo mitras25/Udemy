@@ -1,0 +1,72 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../imagens/fundo2.png);
+    width: 900px;
+    margin: 0 auto;
+}
+
+#inicial{
+    background-image: url(../imagens/fundo.png);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#menu ul{
+    display: flex;
+    align-items: center;
+
+}
+
+#menu ul li {
+    margin-top: 40px;
+
+}
+
+a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin: 2px;
+    color: #000;
+}
+
+
+figure{
+   margin-left: 0;
+}
+
+main h1{
+    margin: 10px;
+}
+
+main p {
+    text-align: justify;
+    padding: 15px;
+}
+
+
+footer{
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer small{
+    color: crimson;
+}
+
+#lista{
+
+    margin-left: 50px;
+    list-style-type: upper-alpha;
+}
+
+#lista li{
+    text-align: left;
+    padding: 5px;
+}
